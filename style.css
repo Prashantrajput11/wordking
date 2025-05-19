@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Staatliches", cursive;
+}
+body {
+	background: #ffce00;
+	position: relative;
+}
+.header {
+	height: 80px;
+	/* border: 1px solid red; */
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.logo {
+	/* border: 1px solid red; */
+	width: 45px;
+	height: 45px;
+}
+.logo img {
+	width: 100%;
+	border-radius: 50%;
+}
+.header h1 {
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+}
+.game-container {
+	/* border:1px solid blue; */
+	height: 300px;
+	margin: 1rem;
+	background: white;
+	box-shadow: 0px 1.5px 2px black;
+	border-radius: 0.8rem;
+}
+
+input[type="text"] {
+	padding: 0.8rem 1.6rem;
+	background-color: #aaa;
+	border: none;
+}
+.game-content {
+	/* border:1px solid red; */
+	padding: 1rem 3rem;
+}
+.game-info {
+	/* border:1px solid red; */
+	margin: 1rem auto;
+}
+.secondary-heading {
+	display: inline-block;
+	padding: 0px 1.5rem;
+}
+.ter-heading {
+	margin: 2rem auto;
+}
+.end-game {
+	display: none;
+	border: 1px solid red;
+	margin: auto;
+	background: red;
+	height: 50%;
+}
+.end-game-message {
+	text-align: center;
+	font-size: 4.2rem;
+}
+.score-message {
+	text-align: center;
+}
+.restart {
+	background: red;
+	border: none;
+	padding: 1rem 1rem;
+	display: block;
+	font-size: 1.2rem;
+	margin: auto;
+}
+#footer {
+	position: absolute;
+	border: 2px solid black;
+	top: 80vh;
+	width: 100%;
+	padding: 0.2rem;
+	text-align: center;
+}
+.icons {
+	border: 2px solid white;
+	border-radius: 50%;
+	padding: 0.8rem;
+	margin: 0.9rem 1.2rem;
+}
